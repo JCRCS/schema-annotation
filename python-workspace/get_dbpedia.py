@@ -29,7 +29,7 @@ class GetDbpedia(object):
         return auxDict
 
 searcher = GetDbpedia()
-searcher.search("Ivelin_Popov")
+searcher.search("Andrei_Aleksandrovich_Ovchinnikov")
         
 
 
