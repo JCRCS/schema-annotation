@@ -1,0 +1,229 @@
+\documentclass{llncs}
+\usepackage{graphicx}
+\usepackage{xargs}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage[]{algorithm2e}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+%TODO PACKAGE
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
+\begin{document}
+\title{Table Interpretation-Challenge}
+
+\author{}
+\institute{University of Milan - Bicocca, Viale Sarca 336, Milan, Italy \email{}}
+
+\maketitle
+
+% \begin{abstract}
+% \end{abstract}
+
+\section{The inputs of table interpretation: TABLE}
+\begin{definition}[Table]
+      We define \textit{Table} a rectangular array (matrix) of strings arranged in $n$ rows and $m$ columns. Every pair $(i,j)$ with $1\leq i \leq n$ and $1\leq j \leq m$, is unambiguously identifies a \textit{cell} of the table.
+\end{definition}
+
+\begin{definition}[Rows and Columns]
+      Given an $n\times m$ table, let $r_i$ denote the i-th row of the table, that is $r_i =\{(i,j) | 1\leq j \leq m\}$ and  $c_j$ denote the j-th column ($c_j =\{(i,j) |1\leq i \leq n\}$).
+      Let $\mathcal{R} = \{r_i | 1\leq j \leq m\}$ and $\mathcal{C} = \{c_j|1\leq i \leq n\}$ be the set of all rows and columns of the table, respectively.
+\end{definition}
+
+\begin{definition}[Column header function]
+      A Column Header Function $h: \mathcal{C}\to \mathcal{L}$ associates each column with a word of a language $\mathcal{L}$.
+\end{definition}
+
+\begin{definition}[Header Table]
+      We define a Header Table the pair $T_h =(T, h)$ where  $T$ is a table and h is a column header function.
+\end{definition}
+
+\begin{definition}[Header]
+      Given a header table $T_h =(T, h)$, we define $\mathcal{H}=h(\mathcal{C})$ as the header of table T.
+\end{definition}
+
+\section{The inputs of table interpretation: ONTOLOGY and KG}
+\begin{definition}[Ontology - simplified definition]
+      An ontology is a multigraph
+      $\mathcal{O}=(\mathcal{N}, \mathcal{P}, \mathcal{A})$, where:
+      \begin{itemize}
+            \item $\mathcal{N} =\mathcal{N}_c \cup \mathcal{N}_d$ is the set of the entities in $\mathcal{O}$ (e.g., {DBpedia Ontology, GeoNames Ontology, ...})
+                  \begin{itemize}
+                        \item $\mathcal{N}_c$ is the set of concepts (e.g., {dbo:Movie, dbo:Actor, ...})
+                        \item $\mathcal{N}_d$ is the set of data types (e.g., {xsd:date, xsd:integer, ...})
+                  \end{itemize}
+            \item $\mathcal{P}$ is the property label set (e.g., {“starring”, “releaseDate”, ...})
+            \item $\mathcal{A} \subset \mathcal{N}^2\times\mathcal{P}$ set of labeled directed arcs, where an edge can exist only between concepts or between a concept and a data type.
+      \end{itemize}
+\end{definition}
+
+\begin{definition} [Knowledge Graph]
+      Given an ontology $\mathcal{O}=(\mathcal{N},\mathcal{P}, \mathcal{A})$,
+      a \textit{Knowledge Graph} $\mathcal{KG}$ \cite{SHI2016123} is a directed multigraph defined by the tuple
+      $\mathcal{KG}=(\mathcal{V, E, O}, \psi, \phi)$ where:
+      \begin{itemize}
+            \item $\mathcal{V}$ is the set of vertices; a vertex represents an entity or a literal (e.g., {dbr:The Matrix, dbr:Keanu Reeves, "1999", ...})
+            \item $\mathcal{E} \subset \mathcal{V}^2$ is a set of directed edges connecting two nodes, they represent links between two entities;
+            \item $\psi$ is the ontology mapping function $\psi:\mathcal{V}\to \mathcal{N}_o$, which links an entity vertex to a concept or data type in the ontology (e.g., dbo:Movie links dbr:The Matrix, dbo:Actor links dbr:Keanu Reeves, xsd:date links “1999”)
+            \item $\phi$ is the predicate mapping function $\phi:\mathcal{E} \to \mathcal{E}$, which maps an edge to a predicate type (e.g. dbr:The Matrix dbo:starring dbr:Keanu Reeves, dbr:The Matrix dbo:releaseDate “1999”).
+      \end{itemize}
+\end{definition}
+
+\section{Formalization}
+Given an $m\times n$ header table $\mathcal{T} =(T, h)$:
+\begin{itemize}
+      \item $T = \{t_{ij}: 1\leq i \leq n \land  1\leq j \leq m\}$ where $t_{ij}$ is the element contained in the cell $(i, j)$
+      \item $\mathcal{C} = \{c_1,...,c_m\}$ where $c_j$ is the j-th column
+      \item $\mathcal{R} = \{r_1,...,r_n\}$ where $r_i$ is the i-th row
+\end{itemize}
+And a \textit{set of Knowledge Graphs} $\mathcal{KG}$s is defined as follows:\\
+$\mathcal{KG}s = \{\mathcal{KG}_1,\mathcal{KG}_2,\ldots,\mathcal{KG}_k\}$\\
+And a \textit{Knowledge Graph} $\mathcal{KG}$, defined as follows:\\
+$\mathcal{KG}_x=(\mathcal{V}_x, \mathcal{E}_x, \mathcal{O}_x, \psi_x, \phi_x)$
+\begin{itemize}
+      \item $\mathcal{V}_x =\mathcal{Z}_x\cup\mathcal{L}_x $
+            \begin{itemize}
+                  \item $\mathcal{Z}_x$ is a set of entities in the $\mathcal{KG}_x$
+                  \item $\mathcal{L}_x$ is a set of literals
+            \end{itemize}
+      \item $\mathcal{E}_x$ is a set of labeled directed edges between two elements in $\mathcal{N}_x$
+            %\item $\mathcal{P}_x$ is a set of property label in $\mathcal{KG}_x$
+      \item $\mathcal{O}_x =(\mathcal{N}_x,\mathcal{P}_x, \mathcal{A}_x)$ with $\mathcal{N}_x = \mathcal{N}_{cx} \cup \mathcal{N}_{dx}$
+            \begin{itemize}
+                  \item $\mathcal{N}_{cx}$ is a set of concepts in the $\mathcal{KG}_x$
+                  \item $\mathcal{N}_{dx}$ is a set of datatypes in the $\mathcal{KG}_x$
+            \end{itemize}
+      \item $\psi_x: \mathcal{V}_x\to \mathcal{N}_x$ is the ontology mapping function
+      \item $\phi_x: \mathcal{E}_x\to\mathcal{A}_x$ is the predicate mapping function
+\end{itemize}
+\begin{definition}[Concept Matcher]
+      Given a knowledge base $\mathcal{KG}_x$, the \textit{Concept Matcher} is a function $\theta_x: T \to \mathcal{N}_{cx} \cup \emptyset$:
+      \begin{equation}
+            \eta_x(t_{ij})=
+            \begin{cases}
+                  c\in\mathcal{N}_{cx}
+                  \\
+                  \emptyset
+            \end{cases}
+            \forall t_{ij} \in T
+      \end{equation}
+\end{definition}
+\begin{definition}[Datatype Matcher]
+      Given a knowledge base $\mathcal{KG}_x$, the \textit{Datatype Matcher} is a function $\theta_x: T \to \mathcal{N}_{dx} \cup \emptyset$:
+      \begin{equation}
+            \theta_x(t_{ij})=
+            \begin{cases}
+                  d\in\mathcal{N}_{dx}
+                  \\
+                  \emptyset
+            \end{cases}
+            \forall t_{ij} \in T
+      \end{equation}
+\end{definition}
+
+\begin{definition}[Entity Matcher] Given a knowledge base $\mathcal{KG}_x$, an \textit{Entity Matcher} is a function $\chi_x: T \to \mathcal{Z}_x \cup \emptyset$:
+      \begin{equation}
+            \chi_x(t_{ij})=
+            \begin{cases}
+                  z\in\mathcal{Z}_x
+                  \\
+                  \emptyset
+            \end{cases}
+            \forall t_{ij} \in T
+      \end{equation}
+\end{definition}
+
+\begin{lemma} Given a knowledge base $\mathcal{KG}_x$ and an \textit{Entity Matcher} is a function $\chi_x$, a particular Concept Matcher is defined as:
+      \begin{equation}
+            \eta_x(t_{ij})=
+            \begin{cases}
+                  \psi_x(\chi_x(t_{i,j})), & if~ \chi_x(t_{i,j})\in \mathcal{Z}_x
+                  \\
+                  \emptyset,               & otherwise
+            \end{cases}
+            ~\forall t_{ij} \in T
+      \end{equation}
+\end{lemma}
+
+\usetikzlibrary{arrows,automata}
+
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,
+            semithick]
+      \tikzstyle{every state}=[fill=white,draw=black,text=black]
+
+      \node[state] (A){$t_{ij}\in T$};
+      \node[state] (B) [right of=A] {$z\in \mathcal{Z}_x$};
+      \node[state] (C) [ right of=B] {$c\in \mathcal{N}_{cx}$};
+
+      \path (A) edge   node {$\chi_x$} (B)
+      (B) edge   node {$\psi_x$} (C);
+\end{tikzpicture}
+
+\begin{definition}[Name Entity Identifier]
+      Given a knowledge base $\mathcal{KG}_x$, a \textit{Name Entity Identifier} is function $\alpha_x: \mathcal{C}\to \{\text{``Name Entity''}, \text{``Literal''} \}$.
+\end{definition}
+
+\begin{lemma}
+      Given a knowledge base $\mathcal{KG}_x$, a threshold value $\bar{\gamma}\in \mathbb{R}$, and a function $\beta_x: T \to \{1,0\}$ defined as follows:
+      \begin{equation}
+            \beta_x(t_{ij})=
+            \begin{dcases}
+                  1, & if~  \eta_x(t_{i,j}) \in\mathcal{N}_{cx}
+                  \\
+                  0, & ~ otherwise
+            \end{dcases}
+      \end{equation}
+      a particular \textit{Name Entity Identifier} can be defined as:
+      \begin{equation}
+            \alpha_x(c_{j})=
+            \begin{dcases*}
+                  \text{``Name Entity''}, & if  $\sum_i \beta_x(t_{ij})\geq\bar{\gamma}$;
+                  \\
+                  \text{``Literal''}, & otherwise.
+            \end{dcases*}
+            \ \ \forall c_j \in \mathcal{C}
+      \end{equation}
+\end{lemma}
+
+\begin{definition}[Subject Identifier]
+      Given a knowledge base $\mathcal{KG}_x$, an $m\times n$ header table $\mathcal{T} =(T, h)$: we define \textit{Subject Identifier} a function $\sigma_x: \mathcal{T} \to \{1, 0\}^m$ so that $\displaystyle\sum^m_{j=1} \sigma_x(\mathcal{T})_j =1$ and $\sigma_x(\mathcal{T})_j = 0,~\forall j\in \{j | \alpha_x(c_j) =1\}$.
+\end{definition}
+
+\begin{definition}[Semantic Column Annotator]
+      Given a knowledge base $\mathcal{KG}_x$, a table defined by a set of columns $\mathcal{C}$ a Semantic Column Annotator is a function $\zeta_x: \mathcal{C}\to \mathcal{N}_x$.
+\end{definition}
+
+
+\begin{lemma}
+      Given a knowledge base $\mathcal{KG}_x$, a table T, a concept matcher $\eta_x$, a datatype matcher $\theta_x$, and sets $\mathcal{D}^j_{cx}$ and $\mathcal{D}^j_{dx}$ defined as follows:
+      \begin{align*}
+            \mathcal{D}^j_{cx} & =\{t_{ij} | t_{ij}\in T \wedge\eta_x(t_{ij}) =cx \wedge i \in \{i,\ldots, n\}\},    & \forall cx \in \mathcal{N}_{cx} \wedge \forall j \in \{1,\ldots,m\} \\
+            \mathcal{D}^j_{dx} & =\{t_{ij} | t_{ij}\in T \wedge \theta_x(t_{ij}) =dx \wedge i \in \{i,\ldots, n\}\}, & \forall dx \in \mathcal{N}_{dx} \wedge \forall j \in \{1,\ldots,m\}
+      \end{align*}
+      The function:
+      \begin{equation}
+            \zeta(c_{j})=
+            \begin{dcases*}
+                  \argmax_{c_x\in \mathcal{N}_{cx}}|D^j_{cx,}|, & if $\alpha(c_{j})=1$;
+                  \\
+                  \argmax_{d_x\in \mathcal{N}_{dx}}|\mathcal{D}^j_{dx}|,& otherwise.
+            \end{dcases*}
+      \end{equation}
+      is a Semantic Column Annotator.
+\end{lemma}
+
+\begin{definition}[Predicate Matcher]
+      $\pi_x:\mathcal{C}^2\to \mathcal{A}_x\cup \emptyset$ with $\pi_x(c_i,c_j) =\emptyset,\, \forall (i,j)| i=j$.
+\end{definition}
+
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+\end{document}
