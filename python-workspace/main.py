@@ -1,6 +1,6 @@
 import get_dbpedia
 
 def mail():
-    pring ("hello")
+    pring ("tuto")
 
 main()
