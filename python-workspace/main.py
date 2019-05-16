@@ -4,3 +4,4 @@ def main():
     table = TableType()
 
 main()
+print("ciao")
