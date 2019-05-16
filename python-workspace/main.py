@@ -1,6 +1,6 @@
 import get_dbpedia
-
-def mail():
-    pring ("tuto")
+from TypesClass import TableType
+def main():
+    table = TableType()
 
 main()

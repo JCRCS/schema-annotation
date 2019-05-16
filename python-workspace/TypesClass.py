@@ -54,14 +54,14 @@ class Table(object):
     def searchSPARQL(self, instance):
 
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-        sparql.setQuery("""
-            SELECT ?x WHERE { ?x ?p """+instance+""" }
-        """)
+        # sparql.setQuery("""
+        #     SELECT ?x WHERE { ?x ?p """+instance+""" }
+        # """)
 
-        sparql.setReturnFormat(N3)
-        results = sparql.query().convert()
-        print("results")
-        print(results)
+        # sparql.setReturnFormat(N3)
+        # results = sparql.query().convert()
+        # print("results")
+        # print(results)
         # g = Graph()
         # g.parse(data=results, format="n3")
         # print(g.serialize(format='n3'))
