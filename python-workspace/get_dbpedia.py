@@ -15,6 +15,7 @@ class GetDbpedia(object):
         WHERE {
             ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label.
             ?s a ?type.
+
             ?label bif:contains \""""+ queryInstance +"""\".
         }
 
@@ -27,6 +28,9 @@ class GetDbpedia(object):
         except ValueError as ve:
             return ve
         return auxDict
+        
+    def dict2Types(self, dictOfTypes, instance):
+        return [[iType["type"]["value"], instance] for iType in dictOfTypes["results"]["bindings"]]
 
 searcher = GetDbpedia()
 print(searcher.search("Andrei_Aleksandrovich_Ovchinnikov"))
