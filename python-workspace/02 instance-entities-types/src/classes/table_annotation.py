@@ -9,8 +9,6 @@ def run():
     create_entity()
     create_type()
 
-def 
-
 def create_table():
     print(' creating table')
     tableIn = pd.read_csv(r'C:/ws/schema-annotation-workspace/schema_annotation/Storage/trialCsv.csv')
