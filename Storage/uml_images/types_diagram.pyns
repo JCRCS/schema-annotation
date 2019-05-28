@@ -1,0 +1,15 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'GetDbpedia', 'x':425, 'y':51, 'width':122, 'height':138, 'attrs': 'response|queryInstances', 'meths': '__init__|search|dict2Types'}
+{'type':'umlshape', 'id':'object', 'x':175, 'y':129, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'TypeObj', 'x':10, 'y':10, 'width':90, 'height':138, 'attrs': 'instances|text|score', 'meths': '__init__|insertType'}
+{'type':'umlshape', 'id':'Types', 'x':84, 'y':263, 'width':146, 'height':122, 'attrs': 'dicSchema|dicTypes', 'meths': '__init__|generateDicSchema'}
+{'type':'umlshape', 'id':'Table2Types', 'x':335, 'y':239, 'width':146, 'height':202, 'attrs': 'df|dicSchema|types|sparql', 'meths': '__init__|preprocess|findTableTypes|findInstanceTypes|findColTypes'}
+{'type':'umlshape', 'id':'pd.concat', 'x':514, 'y':353, 'width':100, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'GetDbpedia_to_object', 'source':'GetDbpedia', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Types_to_object', 'source':'Types', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'TypeObj_to_object', 'source':'TypeObj', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Table2Types_to_object', 'source':'Table2Types', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GetDbpedia_to_Table2Types', 'source':'GetDbpedia', 'target':'Table2Types', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Types_to_Table2Types', 'source':'Types', 'target':'Table2Types', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'pd.concat_to_Table2Types', 'source':'pd.concat', 'target':'Table2Types', 'uml_edge_type': 'composition'}

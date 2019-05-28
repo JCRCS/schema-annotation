@@ -1,6 +1,7 @@
 from SPARQLWrapper import *
 from rdflib import Graph
 import simplejson
+from urllib.parse import quote_plus
 
 
 class GetDbpedia(object):
@@ -9,17 +10,23 @@ class GetDbpedia(object):
         self.response = ""
     def search(self, queryInstance = ""):
         self.queryInstances = queryInstance
+        print (queryInstance)
+        url = queryInstance
+        encoded_url = quote_plus(url, safe= '/:')
         sparql = SPARQLWrapper("http://dbpedia.org/sparql", returnFormat= 'json')
-        sparql.setQuery("""
+        sparql.setQuery(
+            u"""
         SELECT DISTINCT ?type
         WHERE {
             ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label.
             ?s a ?type.
 
-            ?label bif:contains \""""+ queryInstance +"""\".
+            ?label bif:contains "%s".
+
         }
 
-        """)
+        """ % encoded_url
+        )
 
         try :
             sparql.setReturnFormat('json')
@@ -32,8 +39,8 @@ class GetDbpedia(object):
     def dict2Types(self, dictOfTypes, instance):
         return [[iType["type"]["value"], instance] for iType in dictOfTypes["results"]["bindings"]]
 
-searcher = GetDbpedia()
-print(searcher.search("Andrei_Aleksandrovich_Ovchinnikov"))
+# searcher = GetDbpedia()
+# print(searcher.search("Andrei_Aleksandrovich_Ovchinnikov"))
         
 
 

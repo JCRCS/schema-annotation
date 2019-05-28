@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.19)  9 MAY 2019 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.19)  21 MAY 2019 11:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.tex"
-(c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.tex
+**"c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.tex"
+(c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -726,7 +726,7 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 )))
 \c@@todonotes@numberoftodonotes=\count180
-) (c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux
+) (c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux
 
 LaTeX Warning: Label `fig:your-figure2' multiply defined.
 
@@ -831,7 +831,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
- (c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out) (c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out)
+ (c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out) (c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out)
 \@outlinefile=\write5
 \openout5 = `schema-linking-challenge-presentation.out'.
 
@@ -905,7 +905,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 59.
 
-(c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.nav)
+(c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.nav)
 <images/Logo_Universita_Milano-Bicocca.jpg, id=46, 99.7326pt x 106.7187pt>
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
@@ -913,7 +913,7 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg>]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg>]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
 Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 74.
@@ -944,7 +944,7 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
 [4
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Formalization_diagram.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Formalization_diagram.png>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 109.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1118,7 +1118,7 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [20
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams2.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams2.png>]
 <images/diagrams.png, id=204, 607.068pt x 125.268pt>
 File: images/diagrams.png Graphic file (type png)
 <use images/diagrams.png>
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [21
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams.png>]
 <images/header-candidate.png, id=212, 265.59225pt x 38.544pt>
 File: images/header-candidate.png Graphic file (type png)
 <use images/header-candidate.png>
@@ -1157,333 +1157,351 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [22
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-candidate.png> <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-candidate.png> <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png>]
 File: images/header-candidate.png Graphic file (type png)
 <use images/header-candidate.png>
-Package pdftex.def Info: images/header-candidate.png  used on input line 381.
+Package pdftex.def Info: images/header-candidate.png  used on input line 385.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 381.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [23
+<images/uml-types-diagram.png, id=222, 752.21025pt x 495.65175pt>
+File: images/uml-types-diagram.png Graphic file (type png)
+<use images/uml-types-diagram.png>
+Package pdftex.def Info: images/uml-types-diagram.png  used on input line 385.
+(pdftex.def)             Requested size: 284.52756pt x 187.48743pt.
 
-]
+Overfull \vbox (3.19995pt too high) detected at line 385
+ []
+
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 385.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+[23
+
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-types-diagram.png>]
 File: images/header-candidate.png Graphic file (type png)
 <use images/header-candidate.png>
-Package pdftex.def Info: images/header-candidate.png  used on input line 393.
+Package pdftex.def Info: images/header-candidate.png  used on input line 397.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 393.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 397.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [24
 
 ]
 File: images/header-candidate.png Graphic file (type png)
 <use images/header-candidate.png>
-Package pdftex.def Info: images/header-candidate.png  used on input line 405.
+Package pdftex.def Info: images/header-candidate.png  used on input line 409.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 405.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 409.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [25
 
 ]
-<images/header-graph.png, id=241, 265.59225pt x 38.544pt>
+<images/header-graph.png, id=243, 265.59225pt x 38.544pt>
 File: images/header-graph.png Graphic file (type png)
 <use images/header-graph.png>
-Package pdftex.def Info: images/header-graph.png  used on input line 417.
+Package pdftex.def Info: images/header-graph.png  used on input line 421.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
-<images/diagrams-graph.png, id=242, 581.7735pt x 66.84975pt>
+<images/diagrams-graph.png, id=244, 581.7735pt x 66.84975pt>
 File: images/diagrams-graph.png Graphic file (type png)
 <use images/diagrams-graph.png>
-Package pdftex.def Info: images/diagrams-graph.png  used on input line 417.
+Package pdftex.def Info: images/diagrams-graph.png  used on input line 421.
 (pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 417.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 421.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [26
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-graph.png> <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-graph.png> <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png>]
 File: images/header-graph.png Graphic file (type png)
 <use images/header-graph.png>
-Package pdftex.def Info: images/header-graph.png  used on input line 425.
+Package pdftex.def Info: images/header-graph.png  used on input line 433.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 425.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [27
+<images/uml-graph-diagram.png, id=253, 286.06876pt x 355.92975pt>
+File: images/uml-graph-diagram.png Graphic file (type png)
+<use images/uml-graph-diagram.png>
+Package pdftex.def Info: images/uml-graph-diagram.png  used on input line 433.
+(pdftex.def)             Requested size: 284.52756pt x 354.01715pt.
 
-]
+Overfull \vbox (168.36093pt too high) detected at line 433
+ []
+
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 433.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+[27
+
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-graph-diagram.png>]
 File: images/header-graph.png Graphic file (type png)
 <use images/header-graph.png>
-Package pdftex.def Info: images/header-graph.png  used on input line 435.
+Package pdftex.def Info: images/header-graph.png  used on input line 443.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 435.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 443.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [28
 
 ]
 File: images/header-graph.png Graphic file (type png)
 <use images/header-graph.png>
-Package pdftex.def Info: images/header-graph.png  used on input line 444.
+Package pdftex.def Info: images/header-graph.png  used on input line 452.
 (pdftex.def)             Requested size: 113.81102pt x 16.51712pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 444.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 452.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [29
 
 ]
-<images/header-rank-triples.png, id=269, 265.59225pt x 37.94176pt>
-File: images/header-rank-triples.png Graphic file (type png)
-<use images/header-rank-triples.png>
-Package pdftex.def Info: images/header-rank-triples.png  used on input line 455.
-(pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
-<images/diagrams-rank-scorer.png, id=270, 581.7735pt x 66.84975pt>
-File: images/diagrams-rank-scorer.png Graphic file (type png)
-<use images/diagrams-rank-scorer.png>
-Package pdftex.def Info: images/diagrams-rank-scorer.png  used on input line 455.
-(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 455.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [30
-
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-scorer.png> <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png>]
+<images/header-rank-triples.png, id=273, 265.59225pt x 37.94176pt>
 File: images/header-rank-triples.png Graphic file (type png)
 <use images/header-rank-triples.png>
 Package pdftex.def Info: images/header-rank-triples.png  used on input line 463.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
+<images/diagrams-rank-scorer.png, id=274, 581.7735pt x 66.84975pt>
+File: images/diagrams-rank-scorer.png Graphic file (type png)
+<use images/diagrams-rank-scorer.png>
+Package pdftex.def Info: images/diagrams-rank-scorer.png  used on input line 463.
+(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
 Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 463.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+ [30
+
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-scorer.png> <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png>]
+File: images/header-rank-triples.png Graphic file (type png)
+<use images/header-rank-triples.png>
+Package pdftex.def Info: images/header-rank-triples.png  used on input line 471.
+(pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 471.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [31
 
 ]
 File: images/header-rank-triples.png Graphic file (type png)
 <use images/header-rank-triples.png>
-Package pdftex.def Info: images/header-rank-triples.png  used on input line 472.
+Package pdftex.def Info: images/header-rank-triples.png  used on input line 480.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 472.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 480.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [32
 
 ]
 File: images/header-rank-triples.png Graphic file (type png)
 <use images/header-rank-triples.png>
-Package pdftex.def Info: images/header-rank-triples.png  used on input line 482.
+Package pdftex.def Info: images/header-rank-triples.png  used on input line 490.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 482.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 490.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [33
 
 ]
-<images/header-opt.png, id=298, 265.59225pt x 37.94176pt>
-File: images/header-opt.png Graphic file (type png)
-<use images/header-opt.png>
-Package pdftex.def Info: images/header-opt.png  used on input line 493.
-(pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
-<images/diagrams-opt.png, id=299, 581.7735pt x 66.84975pt>
-File: images/diagrams-opt.png Graphic file (type png)
-<use images/diagrams-opt.png>
-Package pdftex.def Info: images/diagrams-opt.png  used on input line 493.
-(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.493 \end{frame}
-                 
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 493.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [34
-
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-opt.png> <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png>]
+<images/header-opt.png, id=302, 265.59225pt x 37.94176pt>
 File: images/header-opt.png Graphic file (type png)
 <use images/header-opt.png>
 Package pdftex.def Info: images/header-opt.png  used on input line 501.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
+<images/diagrams-opt.png, id=303, 581.7735pt x 66.84975pt>
+File: images/diagrams-opt.png Graphic file (type png)
+<use images/diagrams-opt.png>
+Package pdftex.def Info: images/diagrams-opt.png  used on input line 501.
+(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.501 \end{frame}
+                 
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
 Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 501.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+ [34
+
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-opt.png> <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png>]
+File: images/header-opt.png Graphic file (type png)
+<use images/header-opt.png>
+Package pdftex.def Info: images/header-opt.png  used on input line 509.
+(pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 509.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [35
 
 ]
 File: images/header-opt.png Graphic file (type png)
 <use images/header-opt.png>
-Package pdftex.def Info: images/header-opt.png  used on input line 510.
+Package pdftex.def Info: images/header-opt.png  used on input line 518.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 510.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 518.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [36
 
 ]
 File: images/header-opt.png Graphic file (type png)
 <use images/header-opt.png>
-Package pdftex.def Info: images/header-opt.png  used on input line 516.
+Package pdftex.def Info: images/header-opt.png  used on input line 524.
 (pdftex.def)             Requested size: 113.81102pt x 16.25905pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 516.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 524.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [37
 
 ]
-<images/header-rank-ontologies.png, id=328, 265.59225pt x 39.14626pt>
-File: images/header-rank-ontologies.png Graphic file (type png)
-<use images/header-rank-ontologies.png>
-Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 527.
-(pdftex.def)             Requested size: 113.81102pt x 16.7752pt.
-<images/diagrams-rank-ontologies.png, id=329, 581.7735pt x 66.84975pt>
-File: images/diagrams-rank-ontologies.png Graphic file (type png)
-<use images/diagrams-rank-ontologies.png>
-Package pdftex.def Info: images/diagrams-rank-ontologies.png  used on input line 527.
-(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.527 \end{frame}
-                 
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 527.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [38
-
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-ontologies.png> <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png>]
+<images/header-rank-ontologies.png, id=332, 265.59225pt x 39.14626pt>
 File: images/header-rank-ontologies.png Graphic file (type png)
 <use images/header-rank-ontologies.png>
 Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 535.
 (pdftex.def)             Requested size: 113.81102pt x 16.7752pt.
+<images/diagrams-rank-ontologies.png, id=333, 581.7735pt x 66.84975pt>
+File: images/diagrams-rank-ontologies.png Graphic file (type png)
+<use images/diagrams-rank-ontologies.png>
+Package pdftex.def Info: images/diagrams-rank-ontologies.png  used on input line 535.
+(pdftex.def)             Requested size: 284.52756pt x 32.69443pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.535 \end{frame}
+                 
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
 Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 535.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+ [38
+
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-ontologies.png> <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png>]
+File: images/header-rank-ontologies.png Graphic file (type png)
+<use images/header-rank-ontologies.png>
+Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 543.
+(pdftex.def)             Requested size: 113.81102pt x 16.7752pt.
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 543.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [39
 
 ]
 File: images/header-rank-ontologies.png Graphic file (type png)
 <use images/header-rank-ontologies.png>
-Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 544.
+Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 552.
 (pdftex.def)             Requested size: 113.81102pt x 16.7752pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 544.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 552.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [40
 
 ]
 File: images/header-rank-ontologies.png Graphic file (type png)
 <use images/header-rank-ontologies.png>
-Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 554.
+Package pdftex.def Info: images/header-rank-ontologies.png  used on input line 562.
 (pdftex.def)             Requested size: 113.81102pt x 16.7752pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 554.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 562.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [41
 
 ]
-<images/header.png, id=356, 264.99pt x 37.94176pt>
+<images/header.png, id=360, 264.99pt x 37.94176pt>
 File: images/header.png Graphic file (type png)
 <use images/header.png>
-Package pdftex.def Info: images/header.png  used on input line 561.
+Package pdftex.def Info: images/header.png  used on input line 569.
 (pdftex.def)             Requested size: 113.81102pt x 16.29552pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 561.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 569.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [42
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png>]
 File: images/header.png Graphic file (type png)
 <use images/header.png>
-Package pdftex.def Info: images/header.png  used on input line 566.
+Package pdftex.def Info: images/header.png  used on input line 574.
 (pdftex.def)             Requested size: 113.81102pt x 16.29552pt.
-File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
-<use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 566.
-(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
- [43
-
-]
-<images/TableMiner.png, id=371, 595.023pt x 532.389pt>
-File: images/TableMiner.png Graphic file (type png)
-<use images/TableMiner.png>
-Package pdftex.def Info: images/TableMiner.png  used on input line 574.
-(pdftex.def)             Requested size: 227.62204pt x 203.65843pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.574 \end{frame}
-                 
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
 Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 574.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
+ [43
+
+]
+<images/TableMiner.png, id=375, 595.023pt x 532.389pt>
+File: images/TableMiner.png Graphic file (type png)
+<use images/TableMiner.png>
+Package pdftex.def Info: images/TableMiner.png  used on input line 582.
+(pdftex.def)             Requested size: 227.62204pt x 203.65843pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:your-figure2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.582 \end{frame}
+                 
+File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
+<use images/Logo_Universita_Milano-Bicocca.jpg>
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 582.
+(pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [44
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/TableMiner.png>]
-<images/schema-queryinput.png, id=379, 567.3195pt x 137.313pt>
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/TableMiner.png>]
+<images/schema-queryinput.png, id=383, 567.3195pt x 137.313pt>
 File: images/schema-queryinput.png Graphic file (type png)
 <use images/schema-queryinput.png>
-Package pdftex.def Info: images/schema-queryinput.png  used on input line 592.
+Package pdftex.def Info: images/schema-queryinput.png  used on input line 600.
 (pdftex.def)             Requested size: 227.62204pt x 55.09183pt.
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 592.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 600.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [45
 
- <c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/schema-queryinput.png>]
+ <c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/schema-queryinput.png>]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 600.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 608.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [46
 
 ]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 607.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 615.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [47
 
 ]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 621.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 629.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [48
 
 ]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 813.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 821.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [49
 
 ]
 File: images/Logo_Universita_Milano-Bicocca.jpg Graphic file (type jpg)
 <use images/Logo_Universita_Milano-Bicocca.jpg>
-Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 823.
+Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on input line 831.
 (pdftex.def)             Requested size: 19.94159pt x 21.33955pt.
  [50
 
@@ -1497,11 +1515,11 @@ Package pdftex.def Info: images/Logo_Universita_Milano-Bicocca.jpg  used on inpu
 \tf@snm=\write8
 \openout8 = `schema-linking-challenge-presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 827.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 827.
- (c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 827.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 827.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 835.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 835.
+ (c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 835.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 835.
 Package rerunfilecheck Info: File `schema-linking-challenge-presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1513,18 +1531,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25731 strings out of 492616
- 511054 string characters out of 6132767
+ 25741 strings out of 492616
+ 512123 string characters out of 6132767
  612285 words of memory out of 5000000
- 28951 multiletter control sequences out of 15000+600000
+ 28959 multiletter control sequences out of 15000+600000
  16124 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,82p,883b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,15n,82p,934b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.pdf" (50 pages, 1075072 bytes).
+Output written on "c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.pdf" (50 pages, 1255613 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
+ 488 PDF objects out of 1000 (max. 8388607)
  350 compressed objects within 4 object streams
  103 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

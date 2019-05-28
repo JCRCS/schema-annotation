@@ -1,9 +1,9 @@
-PWD c:/ws/latex-workspace/thesis-latex/Challenge presentation
+PWD c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation
 INPUT c:/texlive/2018/texmf.cnf
 INPUT c:/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.tex
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.log
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.tex
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.log
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -210,7 +210,7 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.pdf
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.pdf
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
 INPUT c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.20.pdf
@@ -323,9 +323,9 @@ INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux
 INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -338,13 +338,13 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
 INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -359,29 +359,29 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-diction
 INPUT c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 INPUT c:/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.nav
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.nav
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.nav
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.nav
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Formalization_diagram.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Formalization_diagram.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Formalization_diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Formalization_diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Formalization_diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Formalization_diagram.png
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -407,10 +407,10 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -425,21 +425,21 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT c:/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-32.def
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
@@ -450,165 +450,171 @@ INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams2.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams2.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams2.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-candidate.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-graph.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-scorer.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-scorer.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-scorer.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-triples.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-opt.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/diagrams-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header-rank-ontologies.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/header.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/TableMiner.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/TableMiner.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/TableMiner.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/schema-queryinput.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/schema-queryinput.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/schema-queryinput.png
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.nav
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.toc
-OUTPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.snm
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.aux
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
-INPUT c:/ws/latex-workspace/thesis-latex/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams2.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams2.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams2.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-types-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-types-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-types-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-candidate.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-graph-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-graph-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/uml-graph-diagram.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-graph.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-scorer.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-scorer.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-scorer.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-triples.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-opt.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/diagrams-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header-rank-ontologies.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/header.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/TableMiner.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/TableMiner.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/TableMiner.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/schema-queryinput.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/schema-queryinput.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/schema-queryinput.png
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/images/Logo_Universita_Milano-Bicocca.jpg
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.nav
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.toc
+OUTPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.snm
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.aux
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
+INPUT c:/ws/schema-annotation-workspace/schema_annotation/shcema-annotation-latex-workspace/Challenge presentation/schema-linking-challenge-presentation.out
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

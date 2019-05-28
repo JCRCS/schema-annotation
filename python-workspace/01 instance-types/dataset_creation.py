@@ -33,11 +33,13 @@ except ValueError as ve:
 auxDict = soccerDict["results"]["bindings"]
 soccer = pd.DataFrame()
 for columns in soccerDict["head"]["vars"]:
+    print (columns)
     soccer[columns] =[out[columns]["value"] for out in auxDict]	
+
 
 auxArr = [ list(soccer[soccer.label == val].iloc[0]) for val in soccer.label.unique()]
 auxDf = pd.DataFrame(auxArr)
 auxDf.columns = soccer.columns
 soccer = auxDf
 
-soccer.to_csv(r'C://ws/schema-annotation-workspace/schema-annotation/Storage/soccer_dataset.csv')
+soccer.to_csv(r'C://ws/schema-annotation-workspace/schema_annotation/Storage/soccer_dataset.csv',encoding='utf-8-sig')
