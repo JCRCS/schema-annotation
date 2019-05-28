@@ -5,9 +5,11 @@ import pandas as pd
 
 def run():
     print('hollaaaaa!!!!')
-    create_table()
-    # create_entity()
-    # create_type()
+    #create_table()
+    create_entity()
+    create_type()
+
+def 
 
 def create_table():
     print(' creating table')
