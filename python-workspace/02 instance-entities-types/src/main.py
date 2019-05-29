@@ -1,11 +1,8 @@
 import data.mongo_setup as mongo_setup
 import classes.table_annotation as table_annotation
-import classes.column_candidates as column_candidates
-import classes.NEL.Nel as nel
 
 
-
-def main():
+def run():
     mongo_setup.global_init()
 
     try:
@@ -13,4 +10,4 @@ def main():
     except KeyboardInterrupt:
         return
 
-main()
+run()

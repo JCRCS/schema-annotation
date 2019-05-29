@@ -1,1 +1,8 @@
 mongoengine
+pandas
+pylint
+datetime
+numpy
+SPARQLWrapper
+rdflib
+simplejson
