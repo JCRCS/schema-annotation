@@ -20,17 +20,6 @@ def run():
             candidates.run(iTableName, iColumnName)
 
 
-def column_candidates(tableName, columnName):
-    """set all column_candidates
-        *args: 
-                columnName
-    """
-    entityUris = ner.run(tableName,columnName)
-    print ("passed entities URI")
-    print (entityUris)
-    nel.run(entityUris)
-
-
 def create_table():
     print(' creating table')
     tableIn = pd.read_csv(r'C:/ws/schema-annotation-workspace/schema_annotation/Storage/trialCsv.csv')

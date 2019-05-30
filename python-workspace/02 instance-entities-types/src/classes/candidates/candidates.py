@@ -40,7 +40,7 @@ def candidates_entities_typeObjs(tableName: str, columnName: str):
         svc.register_typeObjs(np.transpose(auxArray)[2],np.transpose(auxArray)[1])
         #print("entity_URI, instance")
         #print(auxArray)
-    print('finish ner')
+    print(f'finish making canidates from: {tableName}, {columnName}')
     return entityUrisResult
 
 def treat_entities_typeObjs(auxArray):
