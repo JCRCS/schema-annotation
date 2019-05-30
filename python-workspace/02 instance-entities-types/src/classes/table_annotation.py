@@ -4,6 +4,7 @@ import pandas as pd
 import services.data_service as svc
 import classes.NER.ner as ner
 import classes.NEL.nel as nel
+import classes.candidates.candidates as candidates
 
 
 
@@ -16,7 +17,7 @@ def run():
     for iTableName in tableNames:
         columnNames = svc.get_columns(tableName = iTableName)
         for iColumnName in columnNames:
-            column_candidates(iTableName, iColumnName)
+            candidates.run(iTableName, iColumnName)
 
 
 def column_candidates(tableName, columnName):
