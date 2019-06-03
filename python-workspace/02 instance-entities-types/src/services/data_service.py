@@ -2,6 +2,7 @@ import datetime
 import bson
 from typing import List
 import pandas as pd
+import re
 
  
 from data.instanceObj import InstanceObj
@@ -12,7 +13,7 @@ from data.typeObj import TypeObj
 
 
 
-def register_entities_typeObjs(entities_typeObjs_Uris: []) -> (List[Entity], List[TypeObj]):
+def register_entities_typeObjs(instanceObj: InstanceObj, entities_typeObjs_Uris: []) -> (List[Entity], List[TypeObj]):
     """ register entities and typeObjs
         *args:
             entities_typeObjs: []
@@ -26,7 +27,7 @@ def register_entities_typeObjs(entities_typeObjs_Uris: []) -> (List[Entity], Lis
     unique_entitiesUris = pd.unique(entities_typeObjs_Uris[1])
     get_indexes = lambda x, xs: [i for (y, i) in zip(xs, range(len(xs))) if x == y]
     for iEntityUri in unique_entitiesUris:
-        entity  = register_entity(entityUri = iEntityUri)
+        entity  = register_entity(instanceObj = instanceObj, entityUri = iEntityUri)
         entities.append(entity)
         iEntityUri_indexes = get_indexes(iEntityUri, entities_typeObjs_Uris[1])
         typeObjsUris = list(entities_typeObjs_Uris[2][iEntityUri_indexes])
@@ -50,12 +51,15 @@ def register_entities(entitiesUris: []) -> List[Entity]:
     return [entity.entityUri for entity in entities]
     
 
-def register_entity(entityUri: str) -> Entity:
+def register_entity(instanceObj, entityUri: str) -> Entity:
     """ add a entity to the db.
         args*:
             entityUri: str
     """
     entity = Entity()
+    entity.table_id = instanceObj.table_id
+    entity.column_id = instanceObj.column_id
+    entity.instanceObj_id = instanceObj.id
     entity.entityUri = entityUri
     entity.save()
     return entity
@@ -113,11 +117,13 @@ def register_column(table: Table,
                     columnName: str) -> Table:
     """
     """
+
     column = Column()
     column.name = columnName
     column.table_id = table.id
 
     table = Table.objects(id = table.id).first()
+    column.id = len(table.columns)
     table.columns.append(column)
     table.save()
 
@@ -133,41 +139,51 @@ def register_instanceObj(table: Table,
                         instanceObjText: str) -> Table:
     """
     """
+    
     instanceObj = InstanceObj()
+    instanceObj.table_id = table.id
+    instanceObj.column_id = column.id
+    
     instanceObj.text = str(instanceObjText)
-    column.instances.append(instanceObj)
-    #**********************************************************fix it!*********************
-    #tableId = ""
-    # tableId = column.table_id
-    # print (f'column.table_id: {tableId}, column.my_metaclass: {column.my_metaclass}.')
-    # table = Table.objects(id = tableId).first()
-    #column.my_metaclass
+    instanceObj.id = len(column.instanceObjs)
+    column.instanceObjs.append(instanceObj)
     table.save()
 
     return table
 
-def get_tables() -> []:
+def get_tables() -> List[Table]:
     """fetch table names
         *args:
         result:
-                tableNames: []
+                tableNames: List[Table]
     """
 
-    tables = Table.objects()\
-                .only('name')
-    return [iTable.name for iTable in tables]
+    tables = Table.objects()
+    return [iTable for iTable in tables]
 
-def get_columns(tableName) -> []:
+def get_columns_from_Table(table: Table) -> List[Column]:
     """fetch column names
         *args: 
-                tableName: str
+                table: Table
         output:
-                columnNames: []
+                columnNames: List[Column]
     """
-    table = Table.objects(name = tableName).first()
-    return [iColumn.name for iColumn in table.columns]
+    #table = Table.objects(id = table.id).first()
+    columns = table.columns
+    #return [iColumn for iColumn in table.columns]
+    return columns
 
-def get_instances(tableName, columnName) -> []:
+# def get_columns_from_tableName(tableName: str) -> List[Column]:
+#     """fetch column names
+#         *args: 
+#                 tableName: str
+#         output:
+#                 columnNames: []
+#     """
+#     table = Table.objects(name = tableName).first()
+#     return [iColumn.name for iColumn in table.columns]
+
+def get_instances(column: Column) -> List[InstanceObj]:
     """ fetch the instances of a column in a table
         *args:
                 tableName: str
@@ -175,14 +191,15 @@ def get_instances(tableName, columnName) -> []:
         output:
                 instancesNames: []
     """
-    table = Table.objects(name = tableName).first()
+    # table = Table.objects(id = table.id).first()
     
-    instancesContent = [
-        instance.text
-        for column in table.columns 
-        for instance in column.instances
-        if column.name == columnName]
-    return instancesContent
+    # instancesContent = [
+    #     instance
+    #     for iColumn in column
+    #     for iInstance in iColumn.instances
+    #     if iColumn == columnName]
+    instances = column.instances
+    return instances
 
 
 

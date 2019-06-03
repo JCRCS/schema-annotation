@@ -12,8 +12,9 @@ class Column(mongoengine.EmbeddedDocument):
                 instances: []
     """
     table_id = mongoengine.ObjectIdField()
+    id = mongoengine.IntField()
 
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     name = mongoengine.StringField(required=True)
     
-    instances = mongoengine.EmbeddedDocumentListField(InstanceObj)
+    instanceObjs = mongoengine.EmbeddedDocumentListField(InstanceObj)

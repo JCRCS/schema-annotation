@@ -9,13 +9,13 @@ import classes.candidates.candidates as candidates
 
 
 def run():
-    print('hollaaaaa!!!!')
-    #create_table()
-    tableNames = svc.get_tables()
-    for iTableName in tableNames:
-        columnNames = svc.get_columns(tableName = iTableName)
-        for iColumnName in columnNames:
-            candidates.run(iTableName, iColumnName)
+    print('enter!!!!')
+    create_table()
+    # tables = svc.get_tables()
+    # for iTable in tables:
+    #     columns = svc.get_columns_from_Table(table = iTable)
+    #     for iColumn in columns:
+    #         candidates.run(iTable, iColumn)
 
 
 def create_table():
