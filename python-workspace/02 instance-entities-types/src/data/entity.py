@@ -9,9 +9,11 @@ class Entity(mongoengine.Document):
                 text: stringField()
                 type_ids = ListField()
     """
+    instanceObj_id = mongoengine.ObjectIdField()
+
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     entityUri = mongoengine.StringField(required=True)
-    type_ids = mongoengine.ListField()
+    typeObj_ids = mongoengine.ListField()
 
     meta = {
         'db_alias': 'core',

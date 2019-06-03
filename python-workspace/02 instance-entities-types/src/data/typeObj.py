@@ -7,6 +7,8 @@ class TypeObj(mongoengine.Document):
         Instances and types of the table.
         *args =     typeObjUri
     """
+    entity_id = mongoengine.ObjectIdField()
+
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     typeObjUri = mongoengine.StringField(required=True)
 

@@ -9,10 +9,10 @@ def run(tableName, columnName):
         *args: 
                 columnName
     """
-    candidates_entities_typeObjs(tableName,columnName)
+    candidates_entities_typeObjs_sparql(tableName,columnName)
     #candidates_predicates
 
-def candidates_entities_typeObjs(tableName: str, columnName: str):
+def candidates_entities_typeObjs_sparql(tableName: str, columnName: str):
     """this methods search the instance and match the possible
         entities, then make the storage of the entities in the DB
         *args:
@@ -36,8 +36,10 @@ def candidates_entities_typeObjs(tableName: str, columnName: str):
         entityUrisResult.extend(auxArray)
         #treat_entities_typeObjs(auxArray)
         #STORAGE on the DB the entities - the insertion is in columns
-        svc.register_entities(pd.unique(np.transpose(auxArray)[1]))
-        svc.register_typeObjs(np.transpose(auxArray)[2],np.transpose(auxArray)[1])
+        auxArray2 = np.transpose(auxArray)
+        svc.register_entities_typeObjs(entities_typeObjs_Uris = auxArray2)
+        # svc.register_entities(entitiesUris = pd.unique(np.transpose(auxArray)[1]))
+        # svc.register_typeObjs(typeObjsUris = np.transpose(auxArray)[2], entitiesUris = np.transpose(auxArray)[1])
         #print("entity_URI, instance")
         #print(auxArray)
     print(f'finish making canidates from: {tableName}, {columnName}')

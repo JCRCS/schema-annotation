@@ -1,5 +1,8 @@
 import datetime
 import bson
+from typing import List
+import pandas as pd
+
  
 from data.instanceObj import InstanceObj
 from data.column import Column
@@ -7,10 +10,34 @@ from data.table import Table
 from data.entity import Entity
 from data.typeObj import TypeObj
 
-from typing import List
+
+
+def register_entities_typeObjs(entities_typeObjs_Uris: []) -> (List[Entity], List[TypeObj]):
+    """ register entities and typeObjs
+        *args:
+            entities_typeObjs: []
+                table of [instance, entityUri, typeObjUri]
+        return:
+            entities: List[Entity]
+            typeObjs: List[TypeObj]
+    """
+    entities: List[Entity] = []
+    typeObjs: List[TypeObj] = []
+    unique_entitiesUris = pd.unique(entities_typeObjs_Uris[1])
+    get_indexes = lambda x, xs: [i for (y, i) in zip(xs, range(len(xs))) if x == y]
+    for iEntityUri in unique_entitiesUris:
+        entity  = register_entity(entityUri = iEntityUri)
+        entities.append(entity)
+        iEntityUri_indexes = get_indexes(iEntityUri, entities_typeObjs_Uris[1])
+        typeObjsUris = list(entities_typeObjs_Uris[2][iEntityUri_indexes])
+        for iTypeObjUri in typeObjsUris:
+            typeObj = register_typeObj(entity = entity, typeObjUri = iTypeObjUri)
+            typeObjs.append(typeObj)
+    return entities, typeObjs
 
 
 def register_entities(entitiesUris: []) -> List[Entity]:
+    ##repair (deprecated)
     """add a group of entities
         *args:
             entitiesUris: []
@@ -34,6 +61,7 @@ def register_entity(entityUri: str) -> Entity:
     return entity
 
 def register_typeObjs(typeObjsUris: [], entitiesUris: []) -> List[TypeObj]:
+    ##repaiiir (deprecated)
     """add a group of types
         *args:
             typeObjsUris: []
@@ -45,18 +73,19 @@ def register_typeObjs(typeObjsUris: [], entitiesUris: []) -> List[TypeObj]:
         typeObjs.append(register_typeObj(iEntityUri,iTypeObjUri))
     return typeObjs
 
-def register_typeObj(entityUri: str, typeObjUri: str) -> TypeObj:
+def register_typeObj(entity: Entity, typeObjUri: str) -> TypeObj:
     """add a type to a entity
         args*:
             entityUri: str
             typeObjUri: str
     """
     typeObj = TypeObj()
+    typeObj.entity_id = entity.id
     typeObj.typeObjUri = typeObjUri
     typeObj.save()
     
-    entity = Entity.objects(entityUri = entityUri).first()
-    entity.type_ids.append(typeObj.id)
+    entity = Entity.objects(id = entity.id).first()
+    entity.typeObj_ids.append(typeObj.id)
     entity.save()
 
     return typeObj

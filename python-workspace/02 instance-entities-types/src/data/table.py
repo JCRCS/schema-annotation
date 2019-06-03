@@ -10,7 +10,6 @@ class Table(mongoengine.Document):
                 name: str
                 columns: {columnId : column}
     """
-    
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     name = mongoengine.StringField(required=True)
     columns = mongoengine.EmbeddedDocumentListField(Column)
