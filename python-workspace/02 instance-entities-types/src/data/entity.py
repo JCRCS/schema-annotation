@@ -9,7 +9,9 @@ class Entity(mongoengine.Document):
                 text: stringField()
                 type_ids = ListField()
     """
-    instanceObj_id = mongoengine.ObjectIdField()
+    table_id = mongoengine.ObjectIdField()
+    column_id = mongoengine.IntField()
+    instanceObj_id = mongoengine.IntField()
 
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     entityUri = mongoengine.StringField(required=True)
@@ -19,4 +21,6 @@ class Entity(mongoengine.Document):
         'db_alias': 'core',
         'collection': 'entity'
     }
-
+        # 'indexes': [
+        #     {'fields': ('table_id', 'group_name'), 'unique': True}
+        # ]

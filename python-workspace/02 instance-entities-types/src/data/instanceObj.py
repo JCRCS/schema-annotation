@@ -15,3 +15,4 @@ class InstanceObj(mongoengine.EmbeddedDocument):
 
     registered_date = mongoengine.DateTimeField(default=datetime.datetime.now)
     text = mongoengine.StringField()
+    entityObjs_ids = mongoengine.ListField()

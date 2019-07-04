@@ -35,7 +35,6 @@ def candidates_entities_typeObjs_sparql(table: svc.Table, column: svc.Column):
         #QUERY the instnace - and take the resultant dictionary of sparql
         auxArray = sparql.search_entity_typeObj(preprocessedInstanceName)
         entityUrisResult.extend(auxArray)
-        #treat_entities_typeObjs(auxArray)
         #STORAGE on the DB the entities - the insertion is in columns
         auxArray2 = np.transpose(auxArray)
         svc.register_entities_typeObjs(instanceObj = iInstanceObj, entities_typeObjs_Uris = auxArray2)
@@ -45,10 +44,6 @@ def candidates_entities_typeObjs_sparql(table: svc.Table, column: svc.Column):
         #print(auxArray)
     print(f'finish making canidates from: {table.name}, {column.name}')
     return entityUrisResult
-
-def treat_entities_typeObjs(auxArray):
-    auxArray = np.transpose(auxArray)[0]
-    return auxArray
 
 
 def preprocess(instanceObjText) -> []:

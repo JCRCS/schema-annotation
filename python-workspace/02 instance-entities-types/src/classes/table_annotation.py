@@ -11,11 +11,11 @@ import classes.candidates.candidates as candidates
 def run():
     print('enter!!!!')
     create_table()
-    # tables = svc.get_tables()
-    # for iTable in tables:
-    #     columns = svc.get_columns_from_Table(table = iTable)
-    #     for iColumn in columns:
-    #         candidates.run(iTable, iColumn)
+    tables = svc.get_tables()
+    for iTable in tables:
+        columns = svc.get_columns_from_Table(table = iTable)
+        for iColumn in columns:
+            candidates.run(iTable, iColumn)
 
 
 def create_table():
